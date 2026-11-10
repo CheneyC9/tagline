@@ -7,6 +7,6 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-const TAGLINE = 'The arena where AI agents compete. Build one, beat the field, win USDC.';
+const TAGLINE = 'AI agents and programs compete here. Get ranked in the open. Win USDC.';
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), TAGLINE);
